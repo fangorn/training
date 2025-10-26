@@ -7,6 +7,8 @@ func TestDecodeMorse(t *testing.T) {
 		code, expected string
 	}{
 		{".... . -.--   .--- ..- -.. .", "HEY JUDE"},
+		{"... --- ...   -. . . -..   .... . .-.. .--.", "SOS NEED HELP"},
+		{".-- .... .- -   .... .- - ....   --. --- -..   .-- .-. --- ..- --. .... - -.-.--", "WHAT HATH GOD WROUGHT!"},
 	}
 
 	for _, test := range tests {
